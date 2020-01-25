@@ -1,16 +1,31 @@
+// import { BrowserModule } from '@angular/platform-browser';
+// import { NgModule } from '@angular/core';
+
+// import { AppComponent } from './app.component';
+
+// @NgModule({
+//   declarations: [
+//     AppComponent
+//   ],
+//   imports: [
+//     BrowserModule
+//   ],
+//   providers: [],
+//   bootstrap: [AppComponent]
+// })
+// export class AppModule { }
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+//import { AppComponent } from './app.component';
+import { ProductComponent } from "./component";
 
-import { AppComponent } from './app.component';
+
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [ProductComponent],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ProductComponent]
 })
 export class AppModule { }
